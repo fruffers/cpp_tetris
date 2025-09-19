@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/cpp_tetris.dir/src/main.cpp.o -o bin/cpp_tetris  -Wl,-rpath,/home/louise/Development/cpp/cpp_tetris/build/lib lib/libSDL3.so.0.3.0 

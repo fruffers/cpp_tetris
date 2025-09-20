@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60">
+  <defs>
+    <linearGradient id="grad-highscore" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" rx="15" ry="15" width="196" height="56" fill="url(#grad-highscore)" stroke="#111827" stroke-width="4"/>
+  <text x="50%" y="50%" font-family="Arial, sans-serif" font-weight="bold" font-size="20" fill="#fff" dominant-baseline="middle" text-anchor="middle">Highscore</text>
+</svg>

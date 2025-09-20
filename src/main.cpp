@@ -1,3 +1,5 @@
+// https://wiki.libsdl.org/SDL3/SDL_CreateWindow
+
 #include <SDL3/SDL.h>
 #include <SDL3/SDL_main.h>
 #include <iostream>

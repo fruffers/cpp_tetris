@@ -3,6 +3,10 @@
 Block::Block(int xParam, int yParam, std::string imageParam) : x(xParam), y(yParam), image(imageParam) {
 }
 
+std::vector<std::vector<int>> Block::getShape() {
+    return shape;
+}
+
 void Block::move(int dx, int dy) {
     x += dx;
     y += dy;

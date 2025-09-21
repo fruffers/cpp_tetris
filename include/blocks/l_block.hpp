@@ -1,15 +1,15 @@
 #pragma once
 #include "block.hpp"
 
-class JBlock : public Block {
+class LBlock : public Block {
     public:
-        JBlock(int xParam, int yParam) : Block(xParam, yParam, "../resources/svg/tetromino-J.svg") {};
-        ~JBlock() = default;
+        LBlock(int xParam, int yParam) : Block(xParam, yParam, "../resources/svg/tetromino-L.svg") {};
+        ~LBlock() = default;
         void move(int dx, int dy) override;
         void rotate(std::string direction) override;
     private:
         std::vector<std::vector<int>> shape = {
-            {1, 0, 0},
+            {0, 0, 1},
             {1, 1, 1}
         };
 };

@@ -7,8 +7,9 @@ class Block : public BlockInterface {
     public:
         Block(int xParam, int yParam, std::string imageParam);
         ~Block() = default;
-        void move(int dx, int dy) override;
-        void rotate(std::string direction) override;
+        virtual void move(int dx, int dy) override;
+        virtual void rotate(std::string direction) override;
+        virtual std::vector<std::vector<int>> getShape();
     private:
         std::string image;
         int x, y;

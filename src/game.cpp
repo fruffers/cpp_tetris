@@ -3,3 +3,7 @@
 Game::Game(int width, int height) : board(width, height) {
     // Initialize game state
 }
+
+Game::collisionDetection() {
+    // Implement collision detection logic
+}

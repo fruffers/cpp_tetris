@@ -7,5 +7,7 @@ class BlockInterface {
         virtual ~BlockInterface() = default;
         virtual void move(int dx, int dy) = 0;
         virtual void rotate(std::string direction) = 0;
-    private:
+    protected:
+        int x, y;
+        std::string image;
 };
